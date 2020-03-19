@@ -130,7 +130,7 @@ namespace LightsOutPuzzleGame
         }
 
         /// <summary>
-        /// To turn on light so that the player can easily win. This was done for testing purposes
+        /// To turn on lights so that the player can easily win. This was done for testing purposes
         /// </summary>
         private void EasyWinStartLights()
         {
@@ -169,6 +169,7 @@ namespace LightsOutPuzzleGame
                      MessageBox.Show("WINNNER!!!", "Lights Out Puzzle");
                 }
             }
+            RandomStartLights();
         }
     }
 }

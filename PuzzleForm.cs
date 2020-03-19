@@ -167,9 +167,10 @@ namespace LightsOutPuzzleGame
                 if (CheckIfPlayerWins() ==  false)
                 {
                      MessageBox.Show("WINNNER!!!", "Lights Out Puzzle");
+                     RandomStartLights();
                 }
             }
-            RandomStartLights();
+      
         }
     }
 }
